@@ -1,0 +1,97 @@
+body{
+    font-family:'Times New Roman', Times, serif
+}
+
+header{
+    margin-top: 75px;
+}
+
+.row{
+    padding: 20px;
+}
+
+.encabezado1{
+ color: aliceblue;
+ font-family: 'Courgette', cursive;
+}
+
+.encabezado2{
+    color:aliceblue;
+    font-family: 'Courgette', cursive;
+}
+
+.encabezado3{
+    color: aliceblue;
+    font-family: 'Courgette', cursive;
+}
+
+.encabezado1,.encabezado2, .encabezado3, .encabezado4 {
+    display: inline;
+    padding: 50px;
+}
+#profesion{
+    transform: translateY(300px) translateX(200px);
+    transition: cubic-bezier(0.19, 1, 0.22, 1);
+}
+#perfil{
+    transform: translateX(800px);
+    transition: cubic-bezier(0.19, 1, 0.22, 1);
+}
+#educacion{
+    transform:translateX(400px) ;
+    transition: cubic-bezier(0.19, 1, 0.22, 1);
+}
+#habilidadesBasicas{
+    color: aliceblue;
+    font-family: "Courgette", cursive;
+}
+
+.navbar.navbar-expand-lg.bg-secondary{
+background-color:blanchedalmond !important;
+}
+
+.navbar-nav{
+    padding:2px;
+    font-family: 'Passion One', cursive;
+}
+.nav-link{
+    padding:8px 12px;
+    border-radius: 5px;
+}
+
+
+.nav-link:hover{
+    background-color:rgb(250, 175, 84);
+    transition: 0.5s;
+}
+
+#formulario{
+    color: aliceblue;
+    font-family: 'Passion One', cursive;
+}
+.list-group-item{
+    --bs-list-group-border-width:transparent;
+    background-color:transparent;
+}
+
+
+.list-group-item:hover{
+background-color:rgb(204, 107, 17);
+transition: 0.5s;
+}
+
+section.dashboard{
+    margin-top: 7.5rem;
+}
+
+.w-75 {
+    width: 20% !important;
+}
+  
+.modal-backdrop{
+    --bs-backdrop-bg: rgb(0 0 0 / 13%);
+}
+
+.modal-content{
+    background-color:beige
+}
