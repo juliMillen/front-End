@@ -29,10 +29,6 @@ header{
     display: inline;
     padding: 50px;
 }
-#profesion{
-    transform: translateY(300px) translateX(200px);
-    transition: cubic-bezier(0.19, 1, 0.22, 1);
-}
 #perfil{
     transform: translateX(800px);
     transition: cubic-bezier(0.19, 1, 0.22, 1);
@@ -94,4 +90,16 @@ section.dashboard{
 
 .modal-content{
     background-color:beige
+}
+
+section.banner{
+background-image: url(C:Users/julim/OneDrive/Escritorio/AP/front-End/imagenes/banner2.png);
+width: 100%;
+height: 70vh;
+position: relative;
+background-repeat: no-repeat;
+background-size: cover;
+-webkit-background-size:cover;
+-moz-background-size:cover;
+-msn-background-size:cover
 }
