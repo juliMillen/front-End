@@ -10,6 +10,8 @@ header{
     padding: 20px;
 }
 
+
+
 .encabezado1{
  color: aliceblue;
  font-family: 'Courgette', cursive;
@@ -24,6 +26,12 @@ header{
     color: aliceblue;
     font-family: 'Courgette', cursive;
 }
+
+.encabezado4{
+    color:aliceblue;
+    font-family: 'Courgette',cursive;
+}
+
 
 .encabezado1,.encabezado2, .encabezado3, .encabezado4 {
     display: inline;
@@ -68,6 +76,7 @@ background-color:blanchedalmond !important;
 .list-group-item{
     --bs-list-group-border-width:transparent;
     background-color:transparent;
+    --bs-link-color:black;
 }
 
 
