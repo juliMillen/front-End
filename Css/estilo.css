@@ -13,8 +13,8 @@ header{
 
 
 .encabezado1{
- color: aliceblue;
- font-family: 'Courgette', cursive;
+ color:rgb(136, 58, 6);
+ font-family: 'Alfa Slab One', cursive;
 }
 
 .encabezado2{
@@ -61,6 +61,7 @@ background-color:blanchedalmond !important;
 .nav-link{
     padding:8px 12px;
     border-radius: 5px;
+    color:rgb(136, 58, 6);
 }
 
 
@@ -110,5 +111,5 @@ background-repeat: no-repeat;
 background-size: cover;
 -webkit-background-size:cover;
 -moz-background-size:cover;
--msn-background-size:cover
+-msn-background-size:cover;
 }
